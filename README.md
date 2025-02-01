@@ -24,5 +24,6 @@ Medbot is a personal remedy doctor chatbot built to provide information and answ
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/Medbot.git
-   cd Medbot
+   git clone https://github.com/MadhaviPalla/generative-ai-projects.git
+   cd generative-ai-projects/Medbot
+

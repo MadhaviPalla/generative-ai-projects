@@ -10,7 +10,7 @@ This project implements a **context-aware Question Answering system** using the 
 
 ---
 
-## 1️⃣ Installation
+## Step1: Installation
 ### Prerequisites
 Ensure you have **Python 3.8+** installed.
 
@@ -21,7 +21,7 @@ pip install fastapi uvicorn torch transformers datasets streamlit
 
 ---
 
-## 2️⃣ Training the Model
+## Step2: Training the Model
 To train the model using the **SQuAD** dataset, run:
 ```sh
 python TrainT5.py
@@ -34,7 +34,7 @@ This script will:
 
 ---
 
-## 3️⃣ Testing the Model
+## Step3: Testing the Model
 To manually test the model, run:
 ```sh
 python TestT5.py
@@ -51,7 +51,7 @@ Predicted Answer: Artificial Intelligence
 
 ---
 
-## 4️⃣ Running the Streamlit Web Interface
+## Step4: Running the Streamlit Web Interface
 To launch the **frontend UI**, run:
 ```sh
 streamlit run frontend.py
@@ -62,14 +62,14 @@ This will open a web app where you can:
 - Get an answer from the trained model
 
 ---
-## 6️⃣ Troubleshooting
+## Step5: Troubleshooting
 - If training runs out of memory, lower `batch_size` in `TrainT5.py`
 - Ensure the model path in `TestT5.py` and `frontend.py` matches the saved model directory
 - If Streamlit doesn't load, check for missing dependencies with `pip list`
 
 ---
 
-## 7️⃣ Future Enhancements
+## Step6: Future Enhancements
 - Add file upload support for long-form context processing
 - Implement image-based OCR for extracting text from images
 - Extend model to support multilingual question answering
